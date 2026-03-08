@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.sink-capital.com)"
+      "WebFetch(domain:www.sink-capital.com)",
+      "Bash(gh api repos/sink-capital-service/sinkcapital_app_privacy/pages 2>&1)"
     ]
   }
 }

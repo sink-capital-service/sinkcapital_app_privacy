@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+  line-height: 1.8;
+}
+
+header {
+  background: #fff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 20px 40px;
+}
+
+header .site-name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #333;
+  text-decoration: none;
+  letter-spacing: 0.05em;
+}
+
+main {
+  max-width: 800px;
+  margin: 60px auto;
+  padding: 0 40px;
+}
+
+.page-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #333;
+  margin-bottom: 10px;
+}
+
+.version {
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 40px;
+}
+
+.section {
+  padding: 30px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.section:last-of-type {
+  border-bottom: none;
+}
+
+.section h2 {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+.section p {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.section ul {
+  padding-left: 1.2em;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.section ul li {
+  margin-bottom: 4px;
+}
+
+footer {
+  margin-top: 80px;
+  border-top: 1px solid #e0e0e0;
+  padding: 30px 40px;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #aaa;
+}
+
+/* index page */
+.app-list {
+  margin-top: 40px;
+}
+
+.app-list a {
+  display: block;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+  text-decoration: none;
+  color: #333;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.app-list a:first-child {
+  border-top: 1px solid #e0e0e0;
+}
+
+.app-list a:hover {
+  color: #0066cc;
+}
+
+.app-list a::after {
+  content: ' ›';
+  color: #aaa;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #888;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #0066cc;
+}
